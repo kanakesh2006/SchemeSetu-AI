@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#312e81" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+  <!-- Background Shield/Circle -->
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)" />
+  
+  <!-- Outer glowing ring -->
+  <rect x="24" y="24" width="464" height="464" rx="104" fill="none" stroke="#4f46e5" stroke-width="8" stroke-opacity="0.3" />
+  
+  <!-- Ashoka/Welfare Pillar Motif -->
+  <g transform="translate(128, 112)">
+    <!-- Base Pedestal -->
+    <path d="M 32,230 L 224,230 L 224,256 L 32,256 Z" fill="url(#goldGrad)" />
+    <path d="M 48,204 L 208,204 L 208,230 L 48,230 Z" fill="#ffffff" opacity="0.9" />
+    
+    <!-- Shaft Pillars -->
+    <rect x="72" y="64" width="24" height="140" fill="#ffffff" opacity="0.95" />
+    <rect x="116" y="64" width="24" height="140" fill="#ffffff" opacity="0.95" />
+    <rect x="160" y="64" width="24" height="140" fill="#ffffff" opacity="0.95" />
+    
+    <!-- Capital Top -->
+    <path d="M 48,64 L 208,64 L 192,38 L 64,38 Z" fill="url(#goldGrad)" />
+    
+    <!-- Dome Roof -->
+    <path d="M 64,38 C 64,38 72,0 128,0 C 184,0 192,38 192,38 Z" fill="#ffffff" />
+  </g>
+  
+  <!-- Floating stars of benefit -->
+  <circle cx="120" cy="150" r="12" fill="#38bdf8" />
+  <circle cx="392" cy="150" r="16" fill="#38bdf8" />
+  <circle cx="140" cy="320" r="8" fill="#38bdf8" />
+</svg>

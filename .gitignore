@@ -1,0 +1,52 @@
+# Python / Backend
+backend/venv/
+backend/.venv/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+backend/.env
+
+# Node.js / Frontend
+node_modules/
+frontend/node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+.pnpm-debug.log
+
+# Next.js
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Scrapers & Scratch / Temporary Files
+backend/scrapers/output/
+backend/scratch/
+scrapers/output/
+backend/sample.html
+backend/next_data.json
+backend/*.xml
+backend/sitemap.xml
+
+# PWA generated service worker files
+frontend/public/sw.js
+frontend/public/workbox-*.js
+frontend/public/sw.js.map
+frontend/public/workbox-*.js.map
+
+
